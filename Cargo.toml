@@ -1,0 +1,5 @@
+[workspace]
+
+members = [
+    "Chapter02/guessing_game",
+]
