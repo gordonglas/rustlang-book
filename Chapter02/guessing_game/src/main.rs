@@ -18,6 +18,10 @@ fn main() {
             .read_line(&mut guess)
             .expect("Failed to read line");
 
+        // A neat feature of rust can be seen here,
+        // if you change this type to i32,
+        // rust will change the type of secret_number
+        // to also be i32, because of the comparison below!
         let guess: u32 = match guess.trim().parse() {
             Ok(num) => num,
             Err(_) => continue,
