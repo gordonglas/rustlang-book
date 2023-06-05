@@ -4,4 +4,5 @@ members = [
     "Chapter02/guessing_game",
     "Chapter05/rectangle",
     "Chapter06/enums",
+    "Chapter07/restaurant",
 ]
